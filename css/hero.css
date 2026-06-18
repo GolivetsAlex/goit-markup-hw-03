@@ -42,3 +42,74 @@
 .primary-button:hover:focus {
     color: #404bbf
 }
+
+.section-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.studio-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.studio-header ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0px 76px;
+}
+
+.header-adress-all ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.strategy-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+.our-team-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.portfolio-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-flex li{
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.portfolio-flex img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
