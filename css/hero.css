@@ -3,7 +3,7 @@
 }
 
 .sol-paragraph {
-    font-style: 56px;
+    font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -12,6 +12,10 @@
 
 .solution-section {
     color: #2e2f42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
 }
 
 .effective-solutions {
@@ -20,9 +24,22 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    width: 496px;
+    margin-bottom: 48px;
+}
+
+.solution-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .primary-button {
+    display: block;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
@@ -43,18 +60,6 @@
     color: #404bbf
 }
 
-.section-title {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-    margin: -1px;
-}
 header .container {
     display: flex;
     align-items: center;
@@ -80,23 +85,34 @@ header .container {
     gap: 40px;
 }
 
+.strategy-section {
+    padding: 120px 0;
+}
 .strategy-section ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .our-team-section ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-basis: calc((100% - 72px) / 4);
+    width: 100%;
     gap: 24px;
 }
 
 .portfolio-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     gap: 24px;
     width: 100%;
     margin-left: auto;
@@ -112,4 +128,38 @@ header .container {
     height: auto;
     display: block;
     object-fit: cover;
+}
+
+.footer-section{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-ssection a{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--iris);
+}
+.footer-span-studio {
+    color: var(--cloud);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    max-width: 115px;
+}
+.footer-section p {
+    max-width: 264px;
+    color: #f4f4fd;
+    line-height: 1.5;
+    padding: 16px 0;
 }
