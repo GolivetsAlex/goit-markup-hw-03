@@ -110,6 +110,12 @@ header .container {
     gap: 24px;
 }
 
+.portfolio-section {
+    padding: 120px 0;
+}
+.portfolio-title{
+    padding-bottom: 72px;git 
+}
 .portfolio-flex{
     display: flex;
     flex-wrap: wrap;
