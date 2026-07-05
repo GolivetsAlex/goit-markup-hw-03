@@ -1,5 +1,5 @@
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -7,13 +7,11 @@
     align-items: center;
 }
 
-.studio-header {
-    display: block;
+.nav-list {
+    display: flex;
     align-items: center;
+    gap: 40px;
 }
-
-
-   
 
 .navigation {
     margin-right: auto;
@@ -31,6 +29,7 @@
 }
 
 .header-logo {
+    padding-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -45,10 +44,13 @@
 }
 
 .header-menu-link {
+    display: block;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .studio-header-first:hover {
