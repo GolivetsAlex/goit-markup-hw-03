@@ -35,8 +35,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 496px;
-    margin-bottom: 48px;
 }
 
 .primary-button {
@@ -61,25 +59,6 @@
 
 .primary-button:hover:focus {
     color: #404bbf
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.studio-header ul{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin: 0px 76px;
-}
-
-.header-adress-all ul {
-    display: flex;
-    align-items: flex-end;
-    gap: 40px;
 }
 
 .strategy-section {

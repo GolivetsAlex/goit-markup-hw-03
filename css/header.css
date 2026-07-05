@@ -13,6 +13,12 @@
     gap: 40px;
 }
 
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .navigation {
     margin-right: auto;
 }
