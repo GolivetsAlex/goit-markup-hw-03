@@ -1,3 +1,26 @@
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.studio-header {
+    display: block;
+    align-items: center;
+}
+
+.is-hidden {
+    display: none;
+}
+   
+
+.navigation {
+    margin-right: auto;
+}
+
 .title-span-studio {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
