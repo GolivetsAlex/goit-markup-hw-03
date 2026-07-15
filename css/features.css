@@ -1,0 +1,23 @@
+.strategy-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+  padding: 0;
+}
+
+.features-card-title {
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.features-card-text {
+  text-align: left;
+}
